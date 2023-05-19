@@ -1,0 +1,58 @@
+.container {
+  margin-top: 20px;
+}
+
+.container__title {
+  margin-bottom: 20px;
+}
+
+.user-info {
+  margin-bottom: 10px;
+}
+
+.user-info__label {
+  margin-right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form__label-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form__label {
+  margin-right: 10px;
+}
+
+.form__input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form__input[type="text"] {
+  width: 150px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.form__button-container {
+  display: flex;
+  align-items: center;
+}
+
+.form__button {
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+}
