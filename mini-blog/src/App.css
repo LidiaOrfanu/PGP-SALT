@@ -1,3 +1,7 @@
+body {
+  background-color: #072A40;
+}
+
 .blog {
   margin: 2rem;
 }
@@ -6,7 +10,7 @@
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  color: #178CA4;
+  color: #F9F7F0;
 }
 
 .blog__section {
@@ -15,7 +19,7 @@
 }
 
 .blog__section-title {
-  color: #072A40;
+  color: #18B7BE;
 }
 
 .blog__section-posts {
@@ -28,15 +32,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid rgba(214, 123, 4, 0.708);
+  border: 1px solid #178CA4;
   padding: 1rem;
   margin-top: 1rem;
   width: 400px;
-  color: #072A40;
+  color: #F9F7F0;
   
 }
 
 .blog__post-title {
+  color: #F9F7F0;
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
