@@ -4,14 +4,13 @@ import './App.css'
 import './components/Footer.css'
 import { Footer } from "./components/Footer";
 
-const App = () => {
-  return (
-    <div>
+const App = () => (
+    <>
       <h1 className="blog__title">Welcome to TinyBlog</h1>
       <Blog />
       <Footer />
-    </div>
-  );
-};
+    </>
+);
+
 
 export default App;
